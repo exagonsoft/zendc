@@ -1,7 +1,7 @@
-<div style="width: 100%; display: flex; flex-direction: column; align-items: center; gap: .1rem">
+<p align="center">
   <img src="./public/logo.png" width="100" />
-  <span style="font-weight: bold; font-size: 3rem">ZendC</span>
-</div>
+</p>
+<h1 align="center">ZendC</h1>
 
 ---
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
