@@ -1,5 +1,9 @@
-# ZendC
+<div style="width: 100%; display: flex; flex-direction: column; align-items: center; gap: .1rem">
+  <img src="./public/logo.png" width="100" />
+  <span style="font-weight: bold; font-size: 3rem">ZendC</span>
+</div>
 
+---
 ![Next.js](https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 ![Version](https://img.shields.io/badge/Version-1.0.0-green?style=for-the-badge)
