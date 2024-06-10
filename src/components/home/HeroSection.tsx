@@ -126,7 +126,7 @@ const HeroSection = () => {
       </div>
       <div className="col-span-full lg:col-span-1 w-full flex justify-center px-8 sm:px-16 md:px-0 mt-32 lg:mx-0 lg:mt-20 h-fit">
         <div className="relative md:max-w-xl">
-          <Image
+          <img
             src="/logo.webp"
             alt="ZendC"
             width={320}
