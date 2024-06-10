@@ -8,8 +8,10 @@ import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
 const NavBar = async () => {
   const { getUser } = getKindeServerSession();
   const user = await getUser();
-  const isAdmin = user?.email === process.env.ADMIN_EMAIL;
-  
+  const _admins = process.env.ADMIN_EMAIL?.split('-');
+
+  const isAdmin = _admins?.find((admin) => admin === user?.email)?.length! >= 1;
+
   return (
     <nav className="sticky z-[100] h-14 inset-x-0 top-0 w-full border-b border-gray-200 bg-white/75 backdrop-blur-lg transitions-all">
       <MaxWidthWrapper>
