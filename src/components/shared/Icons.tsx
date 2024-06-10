@@ -7,7 +7,7 @@ export const Icons = {
         stroke="currentColor"
         strokeWidth="7"
         fill="none"
-        fill-rule="evenodd"
+        fillRule="evenodd"
         strokeLinecap="round"
         strokeLinejoin="round"
       >
@@ -26,9 +26,9 @@ export const Icons = {
       height="24"
       fill="none"
       stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     >
       <circle cx="8" cy="21" r="1"></circle>
       <circle cx="19" cy="21" r="1"></circle>
@@ -36,9 +36,9 @@ export const Icons = {
       <path
         d="M14 9 v4 m2-2 h-4"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       ></path>
     </svg>
   ),
