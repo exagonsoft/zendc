@@ -1,0 +1,22 @@
+.scroll-transitions {
+    transition: all ease-in-out .5s;
+}
+
+.text-glow{
+    width: auto;
+}
+
+.text-glow:hover{
+    
+    /* Text color */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5),
+        /* White glow */
+        0 0 20px rgba(255, 255, 255, 0.5),
+        /* White glow */
+        0 0 30px rgba(255, 255, 255, 0.5),
+        /* White glow */
+        0 0 40px rgba(255, 255, 255, 0.5),
+        /* White glow */
+        0 0 50px rgba(255, 255, 255, 0.5);
+    /* White glow */
+}
