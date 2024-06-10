@@ -1,0 +1,15 @@
+# Block all crawlers from accessing the private and tmp directories
+User-agent: *
+Disallow: /private/
+Disallow: /tmp/
+
+# Allow Googlebot to access everything except private
+User-agent: Googlebot
+Disallow: /private/
+
+# Allow Bingbot to access everything
+User-agent: Bingbot
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.yourwebsite.com/sitemap.xml
