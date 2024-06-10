@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" >
       <head>
         <title>ZendC Online Shop</title>
         <meta property="og:type" content="website" />

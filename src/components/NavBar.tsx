@@ -4,6 +4,7 @@ import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import { ArrowRight } from "lucide-react";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
+import Image from "next/image";
 
 const NavBar = async () => {
   const { getUser } = getKindeServerSession();
@@ -17,7 +18,7 @@ const NavBar = async () => {
       <MaxWidthWrapper>
         <div className="flex h-14 items-center justify-between border-b border-zinc-200">
           <Link href={"/"} className="flex z-40 font-semibold items-center">
-            <img src="/logo.png" alt="ZendC" className="w-10 h-10" />
+            <img width={10} height={10} src="/logo.webp" alt="Logo" className="w-10 h-10"/>
             <span className="text-[hsl(var(--primary))] font-bold">ZendC</span>
           </Link>
           <div className="h-full flex items-center space-x-4">

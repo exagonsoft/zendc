@@ -47,7 +47,7 @@ const FeaturedCard = ({
           {title}
         </span>
         <span className="text-[.9rem]">{`$ ${price}`}</span>
-        <div className="w-full flex gap-0.5 items-center">
+        <div className="w-full flex gap-0.5 items-center min-h-4">
           {stars.map((star, index) => (
             <span key={index}>{star}</span>
           ))}
