@@ -3,6 +3,10 @@ import MaxWidthWrapper from "../shared/MaxWidthWrapper";
 import { Icons } from "../shared/Icons";
 import { mockTestimonials } from "@/mocks/testimonials";
 import Carousel from "../shared/Carousel/Carousel";
+import Link from "next/link";
+import { buttonVariants } from "../ui/button";
+import { ArrowDown, VoteIcon } from "lucide-react";
+import ScrollTo from "../shared/ScrollTo/ScrollTo";
 
 const TestimonialSection = () => {
   const testimonials = mockTestimonials;
@@ -25,6 +29,33 @@ const TestimonialSection = () => {
           />
         </div>
         <Carousel slides={testimonials} />
+        <div className="flex justify-between items-center mt-8 gap-4">
+            <Link
+              href={"/api/auth/logout"}
+              className={buttonVariants({
+                size: "sm",
+                className: "flex items-center gap-1",
+              })}
+            >
+              Rate your experience <VoteIcon className="ml-1.5 h-5 w-5" />
+            </Link>
+            <ScrollTo
+              to={"popular"}
+              smooth={true}
+              offset={50}
+              classes={buttonVariants({
+                size: "sm",
+                className: "flex items-center gap-1 font-bold",
+                variant: "link",
+              })}
+              text="Continue bellow"
+            >
+              <div className="">
+                Continue bellow{" "}
+                <ArrowDown className="ml-1.5 h-5 w-5 updown font-bold" />
+              </div>
+            </ScrollTo>
+          </div>
       </MaxWidthWrapper>
     </section>
   );
