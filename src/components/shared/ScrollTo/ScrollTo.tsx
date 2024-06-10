@@ -31,9 +31,6 @@ const ScrollTo = ({
     const section = document.getElementById(id);
 
     if (section) {
-      if(offset < 0)
-         console.log(offset);
-         
       const offsetTop = section.offsetTop - offset;
       window.scrollTo({
         top: offsetTop,
