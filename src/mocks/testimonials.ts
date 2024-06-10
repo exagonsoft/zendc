@@ -19,5 +19,12 @@ export const mockTestimonials = [
         location: 'Uruguay Monte Video',
         testimonial: `I was impressed by the wide selection of products\n available on ZendC. I was able to find exactly what I\n needed to send to my family, and the customer service was\n excellent.`,
         rate: 5
+    },
+    {
+        name: 'Ana Laura',
+        picture: '/users/user-3.webp',
+        location: 'Uruguay Monte Video',
+        testimonial: `I was impressed by the wide selection of products\n available on ZendC. I was able to find exactly what I\n needed to send to my family, and the customer service was\n excellent.`,
+        rate: 5
     }
 ]
