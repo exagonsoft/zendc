@@ -24,9 +24,7 @@ const TestimonialSection = () => {
             className="w-24 order-0 lg:order-2"
           />
         </div>
-        <div className="mx-auto flex max-w-2xl px-4 lg:mx-0 lg:max-w-none  gap-y-16">
-          <Carousel slides={testimonials} />
-        </div>
+        <Carousel slides={testimonials} />
       </MaxWidthWrapper>
     </section>
   );

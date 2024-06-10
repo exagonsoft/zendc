@@ -30,7 +30,7 @@ const TestimonialCard = ({
 
   return (
     <div
-      className={`w-full bg-white rounded-md shadow-md transition-all flex flex-col gap-4 p-4 min-h-[14rem] hover:shadow-lg hover:scale-[1.05]`}
+      className={`w-full bg-white relative rounded-md shadow-md transition-all flex flex-col gap-4 p-4 min-h-[14rem] hover:shadow-lg hover:scale-[1.05]`}
     >
       <div className="w-full flex justify-start items-center gap-4">
         <img src={picture} alt="User" className="w-12 h-12 rounded-full" />
@@ -39,7 +39,7 @@ const TestimonialCard = ({
           <span className={`text-[.8rem] `}>{location}</span>
         </div>
       </div>
-      <p className={`text-[.8rem]`}>{`"${testimonial ? testimonial : ""}"`}</p>
+      <p className={`text-[.8rem] min-h-[6rem]`}>{`"${testimonial ? testimonial : ""}"`}</p>
       <div className="w-full flex gap-0.5 items-center min-h-4">
         {stars.map((star, index) => (
           <span key={index}>{star}</span>

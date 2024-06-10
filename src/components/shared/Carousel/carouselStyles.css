@@ -1,0 +1,14 @@
+.grid_containers {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    gap: 1rem;
+    width: 100%;
+}
+
+@media screen AND (max-width: 768px){
+    .grid_containers{
+        grid-template-columns: repeat(auto-fill, minmax(100%, auto));
+        grid-auto-flow: column;
+        max-height: 14rem;
+    }
+}
