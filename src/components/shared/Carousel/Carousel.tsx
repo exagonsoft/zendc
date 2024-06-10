@@ -52,20 +52,20 @@ const Carousel = ({ slides }: { slides: Array<Testimonial> }) => {
           />
         ))}
       </div>
-      {/* <div className="w-full flex justify-center gap-8 items-center">
+      <div className="w-full flex justify-center gap-8 items-center">
         <button
-          className="relative order-1 top-[45%] bg-[rgba(0, 0, 0, 0.5)] text-white border-none cursor-pointer p-2 px-[1.1rem] text-[20px] -left-16 hover:bg-slate-200 rounded-full transition-all"
+          className="relative order-1 top-[45%] bg-[rgba(0, 0, 0, 0.5)] text-gray-600 border-none cursor-pointer p-2 px-[1.1rem] text-[20px] -left-16 hover:bg-slate-200 rounded-full transition-all"
           onClick={goToPrevSlide}
         >
           ❮
         </button>
         <button
-          className="relative order-3 top-[45%] bg-[rgba(0, 0, 0, 0.5)] text-white border-none cursor-pointer p-2 px-[1.1rem] text-[20px] -right-16 hover:bg-slate-200 rounded-full transition-all"
+          className="relative order-3 top-[45%] bg-[rgba(0, 0, 0, 0.5)] text-gray-600 border-none cursor-pointer p-2 px-[1.1rem] text-[20px] -right-16 hover:bg-slate-200 rounded-full transition-all"
           onClick={goToNextSlide}
         >
           ❯
         </button>
-      </div> */}
+      </div>
     </div>
   );
 };
