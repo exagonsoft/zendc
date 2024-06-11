@@ -51,10 +51,10 @@ const FeaturedSection = () => {
                   className: "flex items-center gap-1 font-bold",
                   variant: "link",
                 })}
-                text="Continue bellow"
+                text="Continue"
               >
                 <div className="">
-                  Continue bellow{" "}
+                  Continue{" "}
                   <ArrowDown className="ml-1.5 h-5 w-5 updown font-bold" />
                 </div>
               </ScrollTo>

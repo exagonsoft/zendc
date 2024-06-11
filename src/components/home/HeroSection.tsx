@@ -26,21 +26,21 @@ const HeroSection = () => {
             loved ones in Cuba at low prices.
           </p>
           <ul className="mt-8 space-y-2 text-left font-medium flex flex-col items-center sm:items-start">
-            <li className="flex gap-1.5 items-center text-left">
+            <li className="flex gap-1.5 items-center text-left w-full">
               <Check className="h-5 w-5 shrink-0 text-[hsl(var(--primary))]" />
               Hight-quality products
             </li>
-            <li className="flex gap-1.5 items-center text-left">
+            <li className="flex gap-1.5 items-center text-left w-full">
               <Check className="h-5 w-5 shrink-0 text-[hsl(var(--primary))]" />
-              100% Warantied Delivery
+              100% Warrantied Delivery
             </li>
-            <li className="flex gap-1.5 items-center text-left">
+            <li className="flex gap-1.5 items-center text-left w-full">
               <Check className="h-5 w-5 shrink-0 text-[hsl(var(--primary))]" />
               100% Cash back on delays
             </li>
-            <li className="flex gap-1.5 items-center text-left">
+            <li className="flex gap-1.5 items-center text-left w-full">
               <Check className="h-5 w-5 shrink-0 text-[hsl(var(--primary))]" />
-              Market lower pricess
+              Market lowest prices
             </li>
           </ul>
           <div className="mt-12 flex flex-col sm:flex-row items-center sm:items-start gap-5">
@@ -114,10 +114,10 @@ const HeroSection = () => {
                 className: "flex items-center gap-1 font-bold",
                 variant: "link",
               })}
-              text="Continue bellow"
+              text="Continue"
             >
               <div className="">
-                Continue bellow{" "}
+                Continue{" "}
                 <ArrowDown className="ml-1.5 h-5 w-5 updown font-bold" />
               </div>
             </ScrollTo>
