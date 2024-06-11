@@ -4,7 +4,6 @@ import Link from "next/link";
 import { buttonVariants } from "./ui/button";
 import { ArrowRight } from "lucide-react";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
-import Image from "next/image";
 
 const NavBar = async () => {
   const { getUser } = getKindeServerSession();
